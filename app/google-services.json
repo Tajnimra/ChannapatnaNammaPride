@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "152233515663",
+    "project_id": "channapatnanammapride-f0224",
+    "storage_bucket": "channapatnanammapride-f0224.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152233515663:android:8555df5bf4f68dc01e6efa",
+        "android_client_info": {
+          "package_name": "com.example.channapatna"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw80VPgux44OfzDBz8Qme8uSkkko9PPos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152233515663:android:c5b8fb43757da4971e6efa",
+        "android_client_info": {
+          "package_name": "com.example.finalproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw80VPgux44OfzDBz8Qme8uSkkko9PPos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

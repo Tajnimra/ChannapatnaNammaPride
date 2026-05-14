@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF5E9"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5C3A1E"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:text="←"
+            android:textSize="16sp"
+            android:backgroundTint="#7A5230"
+            android:textColor="#FAF5E9"
+            android:padding="0dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="14dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How It's Made"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FAF5E9"
+                android:fontFamily="@font/playfair_bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The magic behind every toy"
+                android:textSize="12sp"
+                android:textColor="#D4B896" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EDE0C4"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🌲  Step 1: Wood Selection"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="#5C3A1E"
+                    android:fontFamily="@font/playfair_bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hale Wood and Neem are chosen for their smooth grain, light weight and non-toxic properties ideal for toys."
+                    android:textSize="14sp"
+                    android:textColor="#5C3A1E"
+                    android:lineSpacingExtra="4dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D6E8D8"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚙️  Step 2: Shaping and Carving"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A3A2A"
+                    android:fontFamily="@font/playfair_bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Skilled artisans use hand lathes to carve wood into beautiful shapes. Each toy is unique — no two pieces are identical."
+                    android:textSize="14sp"
+                    android:textColor="#1A3A2A"
+                    android:lineSpacingExtra="4dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF8E7"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🪲  Step 3: Lac Application"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="#5C3A1E"
+                    android:fontFamily="@font/playfair_bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Natural lac is applied while the wood spins on the lathe — creating a vibrant, non-toxic, food-safe coating."
+                    android:textSize="14sp"
+                    android:textColor="#5C3A1E"
+                    android:lineSpacingExtra="4dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EDD8D8"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🎨  Step 4: Coloring"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="#8B2020"
+                    android:fontFamily="@font/playfair_bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Natural dyes from plants and minerals are used. All colors are 100% natural and child-safe."
+                    android:textSize="14sp"
+                    android:textColor="#8B2020"
+                    android:lineSpacingExtra="4dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DDD8E8"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="✨  Step 5: Polishing"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="#3A2A5A"
+                    android:fontFamily="@font/playfair_bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Each toy is carefully polished to give a smooth and shiny finish. This also helps the colors shine brighter and last longer."
+                    android:textSize="14sp"
+                    android:textColor="#3A2A5A"
+                    android:lineSpacingExtra="4dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D6E8D8"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📦  Step 6: Finishing and Packing"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A3A2A"
+                    android:fontFamily="@font/playfair_bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Final quality check is done by the master artisan. Each toy is then packed carefully and a unique 6-digit ID sticker is attached."
+                    android:textSize="14sp"
+                    android:textColor="#1A3A2A"
+                    android:lineSpacingExtra="4dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1A3A2A"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🏅"
+                    android:textSize="36sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GI Certified Heritage"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FAF5E9"
+                    android:fontFamily="@font/playfair_bold"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Channapatna toys carry the GI tag — guaranteeing authentic Karnataka craftsmanship."
+                    android:textSize="13sp"
+                    android:textColor="#E8A020"
+                    android:gravity="center"
+                    android:layout_marginTop="6dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ChannapatnaNammaPride" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/green_dark</item>
+        <item name="colorPrimaryVariant">@color/green_accent</item>
+        <item name="android:windowBackground">@color/cream_light</item>
+    </style>
+</resources>

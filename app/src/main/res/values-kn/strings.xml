@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ಚನ್ನಪಟ್ಟಣ ನಮ್ಮ ಹೆಮ್ಮೆ</string>
+
+    <string name="namaskara">ನಮಸ್ಕಾರ!</string>
+    <string name="tagline">ಸಂಪ್ರದಾಯ ಕಾಪಾಡುವುದು. ಕುಶಲಕರ್ಮಿಗಳನ್ನು ಸಬಲಗೊಳಿಸುವುದು.</string>
+    <string name="verify_my_toy">ನನ್ನ ಆಟಿಕೆ ಪರಿಶೀಲಿಸಿ</string>
+    <string name="how_its_made">ಹೇಗೆ ತಯಾರಿಸಲಾಗಿದೆ</string>
+    <string name="meet_the_maker">ತಯಾರಕರನ್ನು ಭೇಟಿ ಮಾಡಿ</string>
+    <string name="toy_catalog">ಆಟಿಕೆ ಪಟ್ಟಿ</string>
+    <string name="get_started">ಪ್ರಾರಂಭಿಸಿ</string>
+</resources>

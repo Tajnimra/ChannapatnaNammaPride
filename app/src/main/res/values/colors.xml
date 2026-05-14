@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cream">#F5EDD8</color>
+    <color name="cream_light">#FAF5E9</color>
+    <color name="green_dark">#1A3A2A</color>
+    <color name="green_accent">#3B7A57</color>
+    <color name="amber">#E8A020</color>
+    <color name="amber_light">#F5C842</color>
+    <color name="red_accent">#8B2020</color>
+    <color name="brown">#5C3A1E</color>
+    <color name="white">#FFFFFF</color>
+</resources>

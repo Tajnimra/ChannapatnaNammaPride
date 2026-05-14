@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF5E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🐎"
+            android:textSize="120sp"
+            android:layout_marginTop="60dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Channapatna"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:textColor="#1A3A2A"
+            android:fontFamily="@font/playfair_bold"
+            android:gravity="center"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Namma Pride"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#8B2020"
+            android:fontFamily="@font/playfair_bold"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <View
+                android:layout_width="48dp"
+                android:layout_height="1dp"
+                android:background="#E8A020" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ✦ "
+                android:textColor="#E8A020"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="48dp"
+                android:layout_height="1dp"
+                android:background="#E8A020" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preserving Tradition. Empowering Artisans."
+            android:textSize="14sp"
+            android:textColor="#5C3A1E"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/playfair_regular" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🪆   🐘   🎯   🐎"
+            android:textSize="36sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:background="#1A3A2A"
+                android:layout_marginEnd="6dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:background="#C0C0C0"
+                android:layout_marginEnd="6dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:background="#C0C0C0" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnGetStarted"
+            android:layout_width="280dp"
+            android:layout_height="54dp"
+            android:text="Get Started  →"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#E8A020"
+            android:textColor="#1A3A2A"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌐  English  ∨"
+            android:textSize="14sp"
+            android:textColor="#1A3A2A" />
+
+    </LinearLayout>
+
+</RelativeLayout>

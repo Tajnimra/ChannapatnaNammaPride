@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tvToyEmoji"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="🐴"
+        android:textSize="52sp"
+        android:gravity="center"
+        android:background="#FAF5E9" />
+
+    <TextView
+        android:id="@+id/tvToyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toy Name"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#1A3A2A"
+        android:fontFamily="@font/playfair_bold"
+        android:gravity="center"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvToyPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="₹650"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#8B2020"
+        android:fontFamily="@font/playfair_bold"
+        android:gravity="center"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvToyTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🌿 Natural Lac"
+        android:textSize="11sp"
+        android:textColor="#3B7A57"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp" />
+
+</LinearLayout>

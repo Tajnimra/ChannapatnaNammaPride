@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Channapatna Namma Pride</string>
+    <string name="namaskara">Namaskara!</string>
+    <string name="tagline">Preserving Tradition. Empowering Artisans.</string>
+    <string name="verify_my_toy">Verify My Toy</string>
+    <string name="how_its_made">How It\'s Made</string>
+    <string name="meet_the_maker">Meet The Maker</string>
+    <string name="toy_catalog">Toy Catalog</string>
+    <string name="get_started">Get Started</string>
+</resources>
